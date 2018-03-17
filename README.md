@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/zone-file.svg)](https://www.npmjs.com/package/zone-file)
 [![npm](https://img.shields.io/npm/v/zone-file.svg)](https://www.npmjs.com/package/zone-file)
 [![npm](https://img.shields.io/npm/dm/zone-file.svg)](https://www.npmjs.com/package/zone-file)
-[![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
+[![Slack](https://img.shields.io/badge/join-slack-e32072.svg?style=flat)](http://chat.blockstack.org/)
 
 An [RFC1035-compliant](http://www.ietf.org/rfc/rfc1035.txt) DNS zone file parser and generator for Node.js and the browser. Based on the `dns-zonefile` library by Elgs Qian Chen.
 
