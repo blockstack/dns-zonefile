@@ -3,10 +3,12 @@
   "version": "0.2.3",
   "description": "A DNS zone file parser and generator",
   "main": "lib/index",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "compile": "rm -rf lib; babel --presets env src -d lib",
+    "compile": "rm -rf lib; babel --presets env src -d lib && npm run copy-ts-declarations",
     "prepublish": "npm run compile",
-    "test": "npm run compile; node lib/testing/unitTests.js"
+    "test": "npm run compile; node lib/testing/unitTests.js",
+    "copy-ts-declarations": "cd src/ && find . -name '*.d.ts' -exec cp --parents '{}' ../lib/ \\; && cd ../"
   },
   "repository": {
     "type": "git",
